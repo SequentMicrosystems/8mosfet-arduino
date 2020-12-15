@@ -1,11 +1,11 @@
 # 8mosfet-arduino
 Easy to use Arduino Library for 8-MOSFET Card
 
-In order to use the [8-Mosfet](https://sequentmicrosystems.com/product/raspberry-pi-mosfets-stackable-hat/) card with Arduino  UNO or NANO, TEENSY, FEATHER or ESP32 boards you need a [Raspberry Pi Replacement Cad](https://sequentmicrosystems.com/product/raspberry-pi-replacement-card/) and this library.
+To use the [8-Mosfet](https://sequentmicrosystems.com/product/raspberry-pi-mosfets-stackable-hat/) card with Arduino  UNO or NANO, TEENSY, FEATHER or ESP32 boards you need a [Raspberry Pi Replacement Cad](https://sequentmicrosystems.com/product/raspberry-pi-replacement-card/) and this library.
 
 ## Install 
 
-To download. click the DOWNLOAD ZIP button, rename the uncompressed folder to "SM_8mosfet" and copy to the libraries sub-directory of your sketchbook directory ("This PC > Documents > Arduino > libraries" for a Windows PC or "Home > arduino > libraries" on Linux PC). Now launch the Arduino environment. If you open the Sketch > Import Library menu, you should see SM_8mosfet inside. The library will be compiled with sketches that use it.
+To download click the DOWNLOAD ZIP button, rename the uncompressed folder to "SM_8mosfet" and copy to the libraries subdirectory of your sketchbook directory ("This PC > Documents > Arduino > libraries" for a Windows PC or "Home > arduino > libraries" on Linux PC). Now launch the Arduino environment. If you open the Sketch > Import Library menu, you should see SM_8mosfet inside. The library will be compiled with sketches that use it.
 
 ## Usage
 
@@ -14,4 +14,4 @@ Connect 8mosfet card with the Raspberry Pi Replacement Cad then connect your fav
 
 ## Notice
 
-The library work only with TEENSY 3.2/3.5/3.6/4.0/4.1, Arduino UNO, Arduino NANO, Adafruit FEATHER, ESP32 DEVKIT V1
+The library works only with TEENSY 3.2/3.5/3.6/4.0/4.1, Arduino UNO, Arduino NANO, Adafruit FEATHER, ESP32 DEVKIT V1
