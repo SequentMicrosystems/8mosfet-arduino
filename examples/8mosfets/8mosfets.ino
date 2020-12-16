@@ -1,8 +1,8 @@
 /*
  * 8mosfets
  * 
- * A 8-Mosfets card controling example
- * This example control 2 cards.
+ * A 8-Mosfets cards controling example
+ * This example can control 2 cards.
  * 
  * Hardware requarements except your favorite processor: 
  * 1) 8-MOSFETS 8-Layer Stackable Card for Raspberry Pi: https://sequentmicrosystems.com/product/raspberry-pi-mosfets-stackable-hat/
