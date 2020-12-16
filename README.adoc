@@ -2,7 +2,7 @@
 
 This library allows you to turn on or off individual mosfets or all 8 in the same time, you can read the mosfets state. To use it you will need one S-Bridge card and one 8-Mosfets card. 
 
-For more information about this library please visit the [README](https://github.com/SequentMicrosystems/8mosfet-arduino/blob/main/README.md)
+For more information about this library please visit the https://github.com/SequentMicrosystems/8mosfet-arduino/blob/main/README.md
 
 == License ==
 
