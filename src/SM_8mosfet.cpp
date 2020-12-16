@@ -87,7 +87,7 @@ uint8_t SM_8mosfet::rawWrite(uint8_t val)
 	return Wire.endTransmission();
 }
 
-uint8_t SM_8mosfet::set(uint8_t channel, uint8_t state)
+uint8_t SM_8mosfet::writeChannel(uint8_t channel, uint8_t state)
 {
 	uint8_t val = 0;
 
@@ -117,12 +117,12 @@ uint8_t SM_8mosfet::set(uint8_t channel, uint8_t state)
 	return rawWrite(val);
 }
 
-uint8_t SM_8mosfet::set(int channel, int state)
+uint8_t SM_8mosfet::writeChannel(int channel, int state)
 {
-	return set((uint8_t)channel, (uint8_t)state);
+	return writeChannel((uint8_t)channel, (uint8_t)state);
 }
 
-uint8_t SM_8mosfet::get(uint8_t channel)
+uint8_t SM_8mosfet::readChannel(uint8_t channel)
 {
 	uint8_t val = 0;
 
@@ -146,7 +146,7 @@ uint8_t SM_8mosfet::get(uint8_t channel)
 	return 0;
 }
 
-uint8_t SM_8mosfet::setAll(uint8_t val)
+uint8_t SM_8mosfet::writeAll(uint8_t val)
 {
 	uint8_t outVal = 0;
 	uint8_t i = 0;
@@ -161,7 +161,7 @@ uint8_t SM_8mosfet::setAll(uint8_t val)
 	return rawWrite(outVal);
 }
 
-uint8_t SM_8mosfet::getAll()
+uint8_t SM_8mosfet::readAll()
 {
 	uint8_t val = 0;
 	uint8_t outVal = 0;
